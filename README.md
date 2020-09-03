@@ -12,10 +12,12 @@ Music player software is a type of application software for playing computer aud
 
 #   2)     *********** RACING GAME *****************
 
-The racing video game genre is the genre of video games, either in the first-person or third-person perspective, in which the player partakes in a racing competition with any type of land
+Snake is the common name for a video game concept where the player maneuvers a line which grows in length
 It's used to python of pygame modules and it can easy to implemets this game.
 
-![alt text](images/musicPlayer.PNG)
+![alt text](images/snakeGame.PNG)
+
+
 
 
 
