@@ -10,7 +10,7 @@ Music player software is a type of application software for playing computer aud
 
 # second Project
 
-#   2)     *********** RACING GAME *****************
+#   2)     *********** SNAKE GAME *****************
 
 Snake is the common name for a video game concept where the player maneuvers a line which grows in length
 It's used to python of pygame modules and it can easy to implemets this game.
