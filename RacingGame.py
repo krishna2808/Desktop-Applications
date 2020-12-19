@@ -56,9 +56,11 @@ white = (255, 255, 255)
 display_width, display_height = 800, 550
 gamedisplay = pygame.display.set_mode((display_width, display_height))
 pygame.display.set_caption("Car Game")
-backgroundpic = pygame.image.load("image/road2.jpg")
+
 intro_background = pygame.image.load('image/natural.jpg')
 instruction_background = pygame.image.load('image/bac.jpg')
+backgroundpic  = pygame.image.load('image/road2.jpg')
+
 pygame.mixer.music.load('music/jazz.wav')
 car_crash = pygame.mixer.Sound('music/car_crash.wav')
 clock = pygame.time.Clock()
@@ -252,6 +254,18 @@ def gameloop():
     obs_height = 125
     car_width = 70
     while not gameclose:
+        # while gameover == True:
+        #     gamedisplay.fill(blue)
+        #     messg = "You Lose !! Press Q --> Quit or C---->Play Again"
+            # message(messg)
+            # pygame.display.update()
+            # for event in pygame.event.get():
+            #     if event.type == pygame.KEYDOWN:
+            #         if event.key == pygame.K_q:
+            #             game_over = True
+            #             game_close = False
+            #         elif event.key == pygame.K_c:
+            #             gameloop()
         for event in pygame.event.get():
              if(event.type == pygame.QUIT):
                  gameclose = True
@@ -320,6 +334,8 @@ def gameloop():
              # gameclose = True
             #  message(mes)
         if x > display_width-(car_width+30) or x <30:
+            pygame.mixer.music.pause()
+            car_crash.play()
             message(mes)
         if obs_starty > display_height:
            obs_starty = 0-obs_height
@@ -346,9 +362,9 @@ def gameloop():
 
         pygame.display.update()
         clock.tick(car_speed)
+        
+        
     pygame.quit()
     quit()
 introloop()
         
-
-
