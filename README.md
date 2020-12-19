@@ -8,7 +8,7 @@ Music player software is a type of application software for playing computer aud
 
 ![alt text](images/musicPlayer.PNG)
 
-# second Project
+# Second Project
 
 #   2)     *********** SNAKE GAME *****************
 
@@ -17,6 +17,24 @@ It's used to python of pygame modules and it can easy to implemets this game.
 
 ![alt text](images/snakeGame.PNG)
 
+# Third Project
+
+#   3)     *********** CAR GAME *****************
+For this Car Racing Game, we would like to accomplish a video game imitating the existing game
+showed as Figure 1 with a projective view. The theme of our game is to compete with the other 5
+opponents that are controlled by computer in a racing tournament, the player’s goal is to get to the
+destination as soon as possible while trying to avoid bumping to other cars or road object, the final score
+will be posted according to the finishing position, numbers of bumps and the time. 
+
+       First image
+![alt text](images/intro_car.PNG)
+
+       Secound image
+![alt text](images/instruction_car_game.PNG)
+
+
+       Third image
+![alt text](images/car_game.PNG)
 
 
 
