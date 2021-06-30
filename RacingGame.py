@@ -58,11 +58,11 @@ gamedisplay = pygame.display.set_mode((display_width, display_height))
 pygame.display.set_caption("Car Game")
 
 intro_background = pygame.image.load('image/natural.jpg')
-instruction_background = pygame.image.load('image/bac.jpg')
+instruction_background = pygame.image.load('image/instruction_car_game.PNG')
 backgroundpic  = pygame.image.load('image/road2.jpg')
 
-pygame.mixer.music.load('music/jazz.wav')
-car_crash = pygame.mixer.Sound('music/car_crash.wav')
+pygame.mixer.music.load('image/jazz.wav')
+car_crash = pygame.mixer.Sound('image/car_crash.wav')
 clock = pygame.time.Clock()
 x_incerement = 5
 y2 = 7
