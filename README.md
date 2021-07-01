@@ -6,7 +6,7 @@ Music player software is a type of application software for playing computer aud
 
 
 
-![alt text](images/musicPlayer.PNG)
+![alt text](image/musicPlayer.PNG)
 
 # Second Project
 
