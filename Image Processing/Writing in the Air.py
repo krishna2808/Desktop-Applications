@@ -181,7 +181,7 @@ while True:
                 cv2.line(frame, points[i][j][k - 1], points[i][j][k], colors[i], 2)
                 cv2.line(paintWindow, points[i][j][k - 1], points[i][j][k], colors[i], 2)
 
-    # Show all the windows
+    # Show all the windows that means output
     cv2.imshow("Tracking", frame)
     paintWindow = cv2.resize(paintWindow, (700, 600))
     cv2.imshow("Paint", paintWindow)
