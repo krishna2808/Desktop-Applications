@@ -15,7 +15,7 @@ Music player software is a type of application software for playing computer aud
 Snake is the common name for a video game concept where the player maneuvers a line which grows in length
 It's used to python of pygame modules and it can easy to implemets this game.
 
-![alt text](images/snakeGame.PNG)
+![alt text](image/snakeGame.PNG)
 
 # Third Project
 
@@ -27,14 +27,14 @@ destination as soon as possible while trying to avoid bumping to other cars or r
 will be posted according to the finishing position, numbers of bumps and the time. 
 
        First image
-![alt text](images/intro_car.PNG)
+![alt text](image/intro_car.PNG)
 
        Secound image
-![alt text](images/instruction_car_game.PNG)
+![alt text](image/instruction_car_game.PNG)
 
 
        Third image
-![alt text](images/car_game.PNG)
+![alt text](image/car_game.PNG)
 
 
 
