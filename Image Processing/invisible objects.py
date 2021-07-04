@@ -11,7 +11,7 @@ def hello(x):
 	#only for referece
 	print("")
 
-#initialisation of the camera
+## initialisation of the camera
 cap = cv2.VideoCapture(1)
 
 
