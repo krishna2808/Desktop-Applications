@@ -1,4 +1,4 @@
-### (1) Face Rcognizatoin -2 
+### (1) Face Rcognization -2 
    that is multi face recongnization. 
 
 ![](https://github.com/krishna2808/Desktop-Applications/blob/master/image/Face%20recognization.png)
