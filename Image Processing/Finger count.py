@@ -92,7 +92,7 @@ while cap.isOpened():
                 cv2.circle(crop_img, far, 5, [255,255,255], -1 )
         # step-9
 
-        print(count_defects)
+        #print(count_defects)
         if count_defects == 0:
 
             cv2.putText(frame, "1", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 2, (0, 0, 255), 2)
