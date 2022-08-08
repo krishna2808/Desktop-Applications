@@ -52,7 +52,7 @@ cv2.namedWindow('Paint', cv2.WINDOW_AUTOSIZE)
 
 
 # Loading the default webcam of PC.
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 
 # camera = "http://192.168.43.1:8080/video"
