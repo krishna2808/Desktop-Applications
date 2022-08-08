@@ -6,9 +6,9 @@ import numpy as np
 def nothing(x):
     pass
 
-camera = "http://192.168.43.1:8080/video"
-cap = cv2.VideoCapture(1)
-cap.open(camera)
+#camera = "http://192.168.43.1:8080/video"
+cap = cv2.VideoCapture(0)
+#cap.open(camera)
 
 # step - 2
 cv2.namedWindow("Color Adjustments")
